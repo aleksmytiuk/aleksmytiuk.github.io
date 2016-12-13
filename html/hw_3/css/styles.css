@@ -42,7 +42,7 @@ header h1 {
 aside {
 	width: 240px;
 	height: 240px;
-	margin-top: 40px;
+	display: inline-block;
 }
 
 .aside-menu li {
@@ -53,6 +53,7 @@ aside {
 
 .aside-menu ul {
 	padding-left: 0px;
+	margin-top: 0px;
 }
 
 .aside-menu a {
@@ -75,10 +76,20 @@ aside {
 .content {
 	width: 600px;
 	height: 678px;
+	display: inline-block;
 	float: right;
-	margin-top: -240px;
 }
 
+.container {
+	margin-top: 40px;
+}
+
+.container:after {
+	content: "";
+	clear: both;
+	display: block;
+
+} 
 .photo {
 	width: 678px;
 	height: 400px;
@@ -100,10 +111,6 @@ aside {
 	line-height: 21px;
 	text-align: justify;
 
-}
-
-footer {
-	margin-top: 450px;
 }
 
 .footer {

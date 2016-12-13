@@ -16,19 +16,28 @@ header {
 	display: inline-block;
 	width: 814px;
 	margin-top: 40px;
+	line-height: 15px;
 }
 
-.logo, .contact {
+.logo, 
+.contact {
 	display: inline-block;
 }
 
 .contact {
 	margin-left: 365px;
-	margin-top: 88px;
+	vertical-align: bottom;
 }
 
+.contact ul {
+	margin-bottom: 0;
+}
 .contact li {
 	list-style-type: none;
+}
+
+.content {
+	margin-top: 5px;
 }
 
 .description-photo {
