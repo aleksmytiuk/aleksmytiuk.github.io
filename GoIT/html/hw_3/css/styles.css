@@ -29,7 +29,7 @@ header h1 {
 #navbar li {
 	float: left;
 	position: relative;
-	height: 100%;
+	height: 30px;
 	border-left: 1px solid transparent;
 	border-right: 1px solid transparent; 
 }
