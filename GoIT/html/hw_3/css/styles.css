@@ -13,30 +13,43 @@ header h1 {
 	margin-bottom: 0;
 }
 
-.navigation {
-	height: 40px;
-	background: linear-gradient(90deg, rgba(68, 67, 67, 1) 0%, rgba(94, 94, 94, 1) 100%);
+#navbar li:hover ul { 
+  	display: block;
 }
 
-.navigation li {
-	display: inline-block;
-	margin-top: 12px;
-	margin-left: 20px;
-	margin-right: 20px;
-	border-bottom: 1px solid transparent;
-	transition: all .2s;
+#navbar,
+#navbar ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
 }
 
-.navigation a {
-	text-decoration: none;
-	color: white;
-}
-.navigation li:hover {
-	border-bottom: 2px solid white;
+#navbar {
+    height: 30px;
+    background: linear-gradient(90deg, rgba(68, 67, 67, 1) 0%, rgba(94, 94, 94, 1) 100%);
+    padding-left: 25px;
 }
 
-.navigation ul {
-	padding-left: 25px;
+#navbar li {
+	float: left;
+	position: relative;
+	height: 100%;
+
+}
+
+#navbar li a {
+    display: block;
+    padding: 6px;
+    width: 100px;
+    color: #fff;
+    text-decoration: none;
+	text-align: center;
+}
+
+#navbar li:hover { 
+	background: linear-gradient(90deg, rgba(46, 46, 46, 1) 0%, rgba(74, 74, 74, 1) 100%);
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
 }
 
 aside {
