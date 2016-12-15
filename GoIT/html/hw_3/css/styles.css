@@ -50,9 +50,8 @@ header h1 {
 }
 
 aside {
-	width: 240px;
-	height: 240px;
-	display: inline-block;
+	width: 24%;
+	float: left;
 }
 
 .aside-menu li {
@@ -84,9 +83,7 @@ aside {
 }
 
 .content {
-	width: 600px;
-	height: 678px;
-	display: inline-block;
+	width: 70%;
 	float: right;
 }
 
@@ -101,10 +98,7 @@ aside {
 } 
 
 .photo {
-	width: 678px;
-	height: 400px;
 	border: 1px solid #c8c8c8;
-	margin-left: -80px;
 }
 
 .photo img {
@@ -116,7 +110,7 @@ aside {
 	transition: all .4s;
 }
 
-.photo p {
+.content p {
 	font: 13px 'OpenSans', sans-serif;
 	line-height: 21px;
 	text-align: justify;
@@ -130,9 +124,7 @@ aside {
 
 .footer li {
 	display: inline-block;
-	margin-top: 12px;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin: 12px 20px 0 20px;
 	border-bottom: 1px solid transparent;
 	transition: all .2s;
 }
