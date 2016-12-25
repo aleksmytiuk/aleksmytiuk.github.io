@@ -1,11 +1,14 @@
 body {
 	max-width: 100%;
 	font: 13px 'OpenSans', sans-serif;
+	background-color: #f9f9f9;
+	margin: 0;
 }
 
 .wrapper {
 	width: 966px;
 	margin: 0 auto;
+	background-color: #ffffff;
 }
 
 header h1 {
