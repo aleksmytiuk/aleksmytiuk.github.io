@@ -308,6 +308,14 @@ body {
 	margin: 0 12px 12px 0;
 }
 
+.form_wrapper select {
+	box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.75);
+}
+
+.second_form_wrapper select {
+	box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.75);
+}
+
 .form_first_block {
 	display: inline-block;
 }
