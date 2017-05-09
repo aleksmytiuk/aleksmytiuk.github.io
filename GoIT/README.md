@@ -1,2 +1,0 @@
-# aleksmytiuk.github.io
-GoIT

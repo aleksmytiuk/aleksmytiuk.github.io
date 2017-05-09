@@ -240,14 +240,18 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
 	opacity: 1;
 }
 @media screen and (max-width: 840px){
-	.sp-slideshow { height: 345px; }
+	.sp-slideshow { height: 200px;}
+	.sp-slider > li img { visibility: hidden; }
+	.sp-slideshow { margin: 20px auto; }
+	.slider-text {margin: 0;}
 }
 @media screen and (max-width: 680px){
-	.sp-slideshow { height: 285px; }
+	.sp-slideshow { height: 150px; }
 }
 @media screen and (max-width: 560px){
-	.sp-slideshow { height: 235px; }
+	.sp-slideshow { height: 100px; }
+	.top-wrapper { background-size: 240%;}
 }
 @media screen and (max-width: 320px){
-	.sp-slideshow { height: 158px; }
+	.sp-slideshow { height: 80px; }
 }
