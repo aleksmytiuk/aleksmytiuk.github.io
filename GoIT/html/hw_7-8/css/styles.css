@@ -367,3 +367,15 @@
 		align-items: center;
 	}
 }
+
+
+@media only screen and (max-width: 480px) {
+	.footer {
+		background-size: 450%;
+		padding: 2px 0 2px;
+	}
+
+	.menu-ft .menu_item a {
+		font-size: 12px;
+	}
+}
