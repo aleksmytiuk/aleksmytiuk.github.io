@@ -96,11 +96,10 @@
 
 .slider-text {
 	font-family: 'gothic';
-	width: 502px;
+	width: 410px;
 	float: left;
 	text-align: left;
-	margin-top: 83px;
-	margin-left: 100px;
+	margin-left: 20px;
 }
 
 .slider-text p {

@@ -1,9 +1,9 @@
 .sp-slideshow {
     position: relative;
-	margin: 60px auto;
+	margin: 30px auto;
 	width: 100%;
 	min-width: 260px;
-	height: 400px;
+	height: 250px;
 }
 
 .sp-content {
@@ -217,8 +217,10 @@ input.sp-selector-5:checked ~ .sp-content .sp-parallax-bg {
 	box-sizing: border-box;
 	display: block;
 	margin: 0 auto;
-	padding: 15px 200px 50px 0;
+	padding-top: 10px;
+	height: 265px;
 	float: right;
+
 }
 input.sp-selector-1:checked ~ .sp-content .sp-slider {
     left: 0;
