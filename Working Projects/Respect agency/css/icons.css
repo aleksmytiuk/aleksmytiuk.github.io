@@ -1,0 +1,60 @@
+/*	Preset for icon's
+	*/
+.icn {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background-position: center;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+}
+	.icn-shield {
+		background-image: url(../img/shield.png);
+	}
+	.icn-lock {
+		background-image: url(../img/lock.png);	
+	}
+	.icn-persent {
+		background-image: url(../img/persent.png);
+		
+	}
+	
+	.icn-vk {
+		background-image: url(../img/vk.png);
+		
+	}
+	
+	.icn-mail {
+		background-image: url(../img/mail.png);
+		
+	}
+	
+	.icn-phone {
+		background-image: url(../img/phone.png);
+		
+	}
+	
+	.icn-skype {
+		background-image: url(../img/skype.png);
+		
+	}
+	
+	.icn-vk-white {
+		background-image: url(../img/vk_white.png);
+		
+	}
+	
+	.icn-mail-white {
+		background-image: url(../img/mail_white.png);
+		
+	}
+	
+	.icn-phone-white {
+		background-image: url(../img/phone_white.png);
+		
+	}
+	
+	.icn-skype-white {
+		background-image: url(../img/skype_white.png);
+		
+	}

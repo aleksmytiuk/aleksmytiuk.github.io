@@ -1,0 +1,27 @@
+body {
+	/*background-image: url(../img/background.png);*/
+	/*background-size: 350%;*/
+	/*background-position: 50% 0;*/
+	/*background-repeat: no-repeat;*/
+}
+
+.container_wrapper {
+	max-width: 1094px;
+	margin: 0 auto;
+	font-family: Helvetica;
+}
+
+.header_top_left_text h2 {
+	font-size: 37px;
+	color: #6bafd4;
+}
+
+.header_top_left_text p {
+	font-size: 15px;
+	color: #777777;
+	line-height: 38px;
+}
+
+.header_menu_wrapper {
+	height: 102px;
+}
