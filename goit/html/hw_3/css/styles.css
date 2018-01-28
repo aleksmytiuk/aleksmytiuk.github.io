@@ -1,0 +1,149 @@
+body {
+	max-width: 100%;
+	font: 13px 'OpenSans', sans-serif;
+	background-color: #f9f9f9;
+	margin: 0;
+}
+
+.wrapper {
+	width: 966px;
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+
+header h1 {
+	font: 72px 'OpenSans', sans-serif;
+	margin-bottom: 0;
+}
+
+#navbar, 
+#navbar ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#navbar {
+    height: 30px;
+    background: linear-gradient(90deg, rgba(68, 67, 67, 1) 0%, rgba(94, 94, 94, 1) 100%);
+    padding-left: 25px;
+}
+
+#navbar li {
+	float: left;
+	position: relative;
+	height: 30px;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent; 
+}
+
+#navbar li a {
+    display: block;
+    padding: 6px;
+    width: 100px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+#navbar li:hover { 
+	background: linear-gradient(90deg, rgba(46, 46, 46, 1) 0%, rgba(74, 74, 74, 1) 100%);
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
+}
+
+aside {
+	width: 24%;
+	float: left;
+}
+
+.aside-menu li {
+	line-height: 2.8;
+	border: 1px solid #c8c8c8;
+	list-style-type: none;
+}
+
+.aside-menu ul {
+	padding-left: 0px;
+	margin-top: 0px;
+}
+
+.aside-menu a {
+	margin-left: 40px;
+	text-decoration: none;
+	color: #000000;
+}
+
+.aside-menu li:hover a {
+	margin-left: 60px;
+	transition: .3s;
+	text-decoration: none;
+	color: #000000;
+}
+
+.aside-menu li:hover {
+	background-color: #f9f9f9;
+}
+
+.content {
+	width: 70%;
+	float: right;
+}
+
+.container {
+	margin-top: 40px;
+}
+
+.container:after {
+	content: "";
+	clear: both;
+	display: block;
+} 
+
+.photo {
+	border: 1px solid #c8c8c8;
+}
+
+.photo img {
+	padding: 47px 89px 46px 89px;
+}
+
+.photo img:hover {
+	transform: scale(1.10);
+	transition: all .4s;
+}
+
+.content p {
+	font: 13px 'OpenSans', sans-serif;
+	line-height: 21px;
+	text-align: justify;
+
+}
+
+.footer {
+	height: 40px;
+	background: #e1e1e1;
+}
+
+.footer li {
+	display: inline-block;
+	margin: 12px 20px 0 20px;
+	border-bottom: 1px solid transparent;
+	transition: all .2s;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #2c2c2c;
+}
+.footer li:hover {
+	border-bottom: 2px solid #2c2c2c;
+}
+
+.footer ul {
+	padding-left: 25px;
+}
+
+.copywright {
+	float: right;
+}

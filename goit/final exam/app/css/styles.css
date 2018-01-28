@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+header {
+  width: 100%;
+  height: 700px;
+  background-image: url("/img/bg.png");
+  background-size: cover;
+  background-position: center center; }
+
+.container {
+  max-width: 940px;
+  margin: 0 auto; }
+
+.header-wrapper {
+  font-family: Montserrat, sans-serif;
+  color: #ffffff;
+  font-weight: 700; }
+
+.header-top__logo span {
+  font-size: 20px; }
+
+.header-top-wrapper {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between; }
+
+.header-top__login_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 151px; }
+
+.header-top__log-in a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #ffffff; }
+
+.header-top__log-in a:hover {
+  color: #ff4e50; }
+
+.header-top__sign-up_button {
+  width: 90px;
+  height: 36px;
+  border-radius: 18px;
+  border: 2px solid #ffffff;
+  background-color: rgba(26, 25, 21, 0);
+  cursor: pointer;
+  font-family: Montserrat, sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  outline: none; }
+
+.header-top__sign-up_button:hover {
+  background-color: #ff4e50;
+  transition: 0.2s ease; }
+
+.header-middle-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 160px; }
+
+.header-middle-wrapper h1 {
+  text-transform: uppercase;
+  line-height: 0.1;
+  font-size: 52px;
+  font-weight: 700; }
+
+.header-middle-wrapper span {
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+  font-size: 24px; }
+
+.header-middle__search_button {
+  width: 225px;
+  height: 40px;
+  border-radius: 18px;
+  background-color: #ff4e50;
+  cursor: pointer;
+  font-family: Montserrat, sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  outline: none;
+  border: none; }
+
+.header-middle__search {
+  margin-top: 35px; }
+
+.header-middle__search_button:hover {
+  background-color: #1cd7ad;
+  transition: 0.2s ease; }
+
+.works-wrapper {
+  margin-top: 98px; }
+
+.works-wrapper h1 {
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+  font-size: 22px;
+  font-weight: 700; }
+
+.works-content-wrapper {
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between; }
+
+.works-content__item {
+  width: 300px;
+  height: 400px; }
+
+.works-content__item_first {
+  background-image: url("/img/item1.png"); }
+
+.works-content__item_second {
+  background-image: url("/img/item2.png"); }
+
+.works-content__item_third {
+  background-image: url("/img/item3.png"); }

@@ -1,0 +1,152 @@
+body {
+	background-image: url(../image/background.jpg);
+	background-size: 100%;
+	background-position-y: 3.5%;
+}
+
+.container {
+	max-width: 1018px;
+	background-color: #fff;
+	margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+.header_contacts li {
+	font: 12px 'Tahoma', sans-serif;
+	color: #128aa7;
+	line-height: 1.5;
+}
+
+.header_countries_wrapper {
+	padding-top: 15px;
+}
+
+.header_countries_wrapper p {
+	font: 9px 'Tahoma', sans-serif;
+	color: #128aa7;
+	text-align: center;
+	padding-top: 3px;
+	text-decoration: underline;
+}
+
+.header_flag_wrapper {
+	width: 42px;
+	height: 55px;
+	padding: 5px;
+	display: inline-block;	
+}
+
+.header_flag_wrapper:last-child {
+	padding-right: 0;
+}
+
+.header_wrapper_top {
+	display: flex;
+	margin: 0 35px 0 35px;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.header_top_right_wrapper {
+	text-align: right;
+	align-content: space-between; 
+}
+
+.header_main_photo_wrapper img {
+	width: 100%;
+	height: 100%;
+}
+
+.main_menu {
+    display: block;
+    margin: 0;
+ 	padding: 0 65px 0 65px;
+    list-style: none;
+    background-color: #323232;
+    text-align: justify;
+}
+
+.main_menu:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+
+.main_menu li {
+    float: left;
+    position: relative;
+    padding: 0 12px 0 12px;
+}
+
+.main_menu li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    background-color: #323232;
+    text-decoration: none;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    width: 180px;
+    top: 37px;
+    left: 0;
+    background-color: #323232;
+}
+
+.submenu li {
+    display: block;
+    line-height: 0.5;
+}
+
+.submenu li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    background-color: #323232;
+    text-decoration: none;
+}
+
+.submenu li a:hover {
+    text-decoration: underline;
+}
+
+.main_menu li:hover .submenu {
+    display: block;
+}
+
+.content_wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.content_block {
+	width: 209px;
+	background-color: #edeef0;
+	color: #424c43;
+	line-height: 2;
+	text-align: center;
+}
+
+.content_block h1 {
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 2.5;
+}
+
+.footer  {
+	text-align: center;
+	color: #ffffff;
+	font-size: 12px;
+	line-height: 3;
+}
+
+.information_wrapper {
+	border-right: 1px solid #c7cacf;
+}
+
+.news_wrapper {
+	border-left: 1px solid #c7cacf;
+}

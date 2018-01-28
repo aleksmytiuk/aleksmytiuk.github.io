@@ -1,0 +1,33 @@
+td {
+	border: 5px solid black;
+	padding: 30px;
+}
+
+table {
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.table_wrapper {
+	width: 720px;
+	height: 719px;
+	overflow: hidden;
+}
+
+.red {
+	background-color: red;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.black {
+	background-color: black;
+}
+
+.blue {
+	background-color: blue;
+}

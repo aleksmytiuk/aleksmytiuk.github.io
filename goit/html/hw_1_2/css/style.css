@@ -1,0 +1,119 @@
+body {
+	background-color: #f2f4f0;
+}
+
+.container {
+	max-width: 796px;
+	margin: 0 auto;
+	font-family: 'Arial';
+}
+
+.container h1 {
+	text-align: center;
+	font: 36px 'Arial';
+	font-weight: 600;
+}
+
+.photo {
+	width: 202px;
+	height: 202px;
+	overflow: hidden;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.photo img {
+	width: 480px;
+	height: 319px;
+	margin: -20px 0 0 -115px;
+}
+
+.main-photo p {
+	text-align: center;
+	font: 14px 'Arial';
+}
+.purpouse ul {
+	line-height: 1.5;
+}
+
+.directions {
+	margin: 0; 
+    padding: 0;
+    line-height: 1.5;
+}
+
+.directions li a {
+	font: 18px 'Arial', sans-serif;
+	font-weight: 700;
+	color: black;
+	text-decoration: none;
+}
+
+.directions li {
+	list-style-type: none;
+}
+
+.directions li:hover a {
+	color: gray;
+}
+
+.simpsons {
+	margin-top: 45px;
+	text-align: center;
+}
+
+.family {
+    width: 190px;
+    height: 210px;
+    display: inline-block;
+}
+
+.family-box {
+	width: 160px;
+    height: 160px;
+	border-radius: 80px;
+    border-color: #e7911a;
+    border-style: solid;
+    margin: 0 10px 0 10px;
+
+}
+
+.family img {
+	width: 160px;
+	height: 160px;
+}
+
+.family p {
+	text-align: center;
+}
+
+#homer img {
+	width: 160px;
+	height: 160px;
+	margin: 10px 0 0 -30px;
+}
+
+#marge img {
+	width: 160px;
+	height: 190px;
+	margin: 0;
+	margin-top: -31px;
+	border-bottom-left-radius: 47px;
+	border-bottom-right-radius: 78px;
+}
+
+#bart img {
+	width: 160px;
+	height: 160px;
+	margin-left: 5px 0 0 -15px;
+	border-bottom-left-radius: 78px;
+	border-bottom-right-radius: 78px;
+}
+
+#lisa img {
+	width: 160px;
+	height: 160px;
+	margin-left: 1px;
+	border-bottom-left-radius: 78px;
+	border-bottom-right-radius: 78px;
+}
