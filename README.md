@@ -1,2 +1,2 @@
-# aleksmytiuk.github.io
+
 GoIT
